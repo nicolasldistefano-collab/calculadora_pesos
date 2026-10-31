@@ -11,7 +11,6 @@ Pensada para correr en equipos con pocos recursos (Lubuntu).
 | `reglas.py` | Lógica del cálculo. No depende de la interfaz. |
 | `condiciones.json` | Condiciones de las carreras (anticipo HSI 1/11). Se editan sin tocar código. |
 | `app.py` | Interfaz gráfica con tkinter. |
-| `test_reglas.py` | Pruebas automáticas con casos reales del anticipo. |
 
 ## Instalación en Lubuntu / Ubuntu
 
@@ -19,7 +18,6 @@ Pensada para correr en equipos con pocos recursos (Lubuntu).
 sudo apt update
 sudo apt install -y python3 python3-tk
 cd calculadora_pesos
-python3 -m unittest -v      # correr las pruebas
 python3 app.py              # abrir la calculadora
 ```
 
