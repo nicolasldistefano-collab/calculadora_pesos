@@ -1,0 +1,71 @@
+{
+  "reunion": "Hipódromo de San Isidro - Domingo 1° de noviembre (anticipo)",
+  "carreras": [
+    {"nombre": "WILLY DUBAI", "distancia": 1200,
+     "descripcion": "Caballos de 4 años (con exclusión de yeguas) que no hayan ganado. Peso 57 kilos.",
+     "sexos": ["M"], "edad_min": 4, "edad_max": 4, "victorias_min": 0, "victorias_max": 0,
+     "peso_base": 57},
+
+    {"nombre": "EL ANIMAL", "distancia": 2000,
+     "descripcion": "Caballos de 4 años (con exclusión de yeguas) que no hayan ganado. Peso 57 kilos.",
+     "sexos": ["M"], "edad_min": 4, "edad_max": 4, "victorias_min": 0, "victorias_max": 0,
+     "peso_base": 57},
+
+    {"nombre": "WILD ONES", "distancia": 1200,
+     "descripcion": "Potrancas de 3 años que no hayan ganado. Peso 56 kilos.",
+     "sexos": ["H"], "edad_min": 3, "edad_max": 3, "victorias_min": 0, "victorias_max": 0,
+     "peso_base": 56},
+
+    {"nombre": "LOVE STORY (BRZ)", "distancia": 2000,
+     "descripcion": "Potrancas de 3 años que no hayan ganado. Peso 56 kilos.",
+     "sexos": ["H"], "edad_min": 3, "edad_max": 3, "victorias_min": 0, "victorias_max": 0,
+     "peso_base": 56},
+
+    {"nombre": "EL CONSORTE", "distancia": 1200,
+     "descripcion": "Potrillos de 3 años que no hayan ganado. Peso 56 kilos.",
+     "sexos": ["M"], "edad_min": 3, "edad_max": 3, "victorias_min": 0, "victorias_max": 0,
+     "peso_base": 56},
+
+    {"nombre": "NACHO SURGE", "distancia": 2000,
+     "descripcion": "Potrillos de 3 años que no hayan ganado. Peso 56 kilos.",
+     "sexos": ["M"], "edad_min": 3, "edad_max": 3, "victorias_min": 0, "victorias_max": 0,
+     "peso_base": 56},
+
+    {"nombre": "MYSTERIOUS WAY (BRZ)", "distancia": 1000,
+     "descripcion": "Yeguas de 5 años y más edad ganadoras de dos o tres carreras. Peso 5 años 54 kilos, 6 años y más edad 52 kilos. Recargo de 3 kilos a las ganadoras de tres carreras.",
+     "sexos": ["H"], "edad_min": 5, "edad_max": null, "victorias_min": 2, "victorias_max": 3,
+     "peso_base": 54, "peso_por_edad": {"5": 54, "6": 52},
+     "recargo_por_victorias": {"3": 3}},
+
+    {"nombre": "VISION TRIOMPHE", "distancia": 1400,
+     "descripcion": "Yeguas de 4 años ganadoras de una carrera. Peso 57 kilos.",
+     "sexos": ["H"], "edad_min": 4, "edad_max": 4, "victorias_min": 1, "victorias_max": 1,
+     "peso_base": 57},
+
+    {"nombre": "EL ESTELAR", "distancia": 1000,
+     "descripcion": "Todo caballo de 4 años ganadores de dos carreras. Peso 57 kilos. (Las yeguas descargarán 2 kilos).",
+     "sexos": ["M", "H"], "edad_min": 4, "edad_max": 4, "victorias_min": 2, "victorias_max": 2,
+     "peso_base": 57, "descargo_hembras": 2},
+
+    {"nombre": "SER SINCERO", "distancia": 1200,
+     "descripcion": "Todo caballo de 4 años ganadores de una carrera. Peso 57 kilos. (Las yeguas descargarán 2 kilos).",
+     "sexos": ["M", "H"], "edad_min": 4, "edad_max": 4, "victorias_min": 1, "victorias_max": 1,
+     "peso_base": 57, "descargo_hembras": 2},
+
+    {"nombre": "KNOWS ALL", "distancia": 1200,
+     "descripcion": "Potrancas de 3 años ganadoras de una carrera. Peso 56 kilos. Recargo de 2 kilos a la ganadora de Clásico.",
+     "sexos": ["H"], "edad_min": 3, "edad_max": 3, "victorias_min": 1, "victorias_max": 1,
+     "peso_base": 56, "recargo_clasico": 2, "recargo_clasico_acumulativo": false},
+
+    {"nombre": "ESTERO DE IBERA", "distancia": 1600,
+     "descripcion": "Potrancas de 3 años ganadoras de una carrera. Peso 56 kilos. Recargo de 2 kilos al ganador de Clásico.",
+     "sexos": ["H"], "edad_min": 3, "edad_max": 3, "victorias_min": 1, "victorias_max": 1,
+     "peso_base": 56, "recargo_clasico": 2, "recargo_clasico_acumulativo": false},
+
+    {"nombre": "COLIFATO NOVO", "distancia": 1000,
+     "descripcion": "Potrillos de 3 años ganadores de una o dos carreras. Peso 53 kilos. Recargo de 3 kilos al ganador de dos carreras. Recargo de 2 kilos por cada clásico ganado.",
+     "sexos": ["M"], "edad_min": 3, "edad_max": 3, "victorias_min": 1, "victorias_max": 2,
+     "peso_base": 53, "recargo_por_victorias": {"2": 3},
+     "recargo_clasico": 2, "recargo_clasico_acumulativo": true}
+  ]
+}
