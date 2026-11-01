@@ -35,4 +35,5 @@ Copiar un bloque de `condiciones.json` y editar sus campos:
 No calcula handicaps (los asigna el handicapper) ni la escala de "peso por edad" de los
 clásicos, porque esas tablas no figuran en el anticipo.
 
-## Video de presentación:** [Ver en YouTube](https://www.youtube.com/watch?v=wuaF_YRsxBU)
+## Video de presentación: 
+[Ver en YouTube](https://www.youtube.com/watch?v=wuaF_YRsxBU)
